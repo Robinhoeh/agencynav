@@ -1,5 +1,5 @@
-import './index.css';
+import $ from 'jquery';
 
-document.getElementById('root').innerHTML = 'Hello World';
-
-alert('Hello World!');
+$(document).ready( () => {
+	
+});
