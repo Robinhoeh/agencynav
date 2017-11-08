@@ -11,7 +11,7 @@ html{
 body{
 	/*font-family: 'Roboto', sans-serif; ;*/
 }
-.globalWrapper{
+.container{
 	/*max-width: 1880px;*/
 	width: 100%;
 	margin: 0 auto;
@@ -44,7 +44,7 @@ a{
 }
 main{
 	min-height: 100vh;
-	/*background-image: linear-gradient(to bottom, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.3) 100%), url('https://picsum.photos/1000/1000/?random');*/
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.3) 100%), url('./hero.jpg');
 	background-size: cover;
 	background-position: bottom center;
 	background-repeat: no-repeat;
