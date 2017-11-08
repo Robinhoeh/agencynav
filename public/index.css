@@ -62,8 +62,9 @@ header{
 	width: 140px;
 }
 ul{
-	width: 61%;
+	width: 49%;
 	justify-content: space-between;
+	margin-left: 109px;
 }
 ul li{
 	font-family: "Oswald", sans-serif;
@@ -72,11 +73,16 @@ ul li{
 ul li, .hamburger{
 	color: white;
 }
+.menu li:hover{
+	color: white;
+	padding: 10px 15px;
+	border: 2px solid white;
+}
 nav{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding-top: 40px;
+	padding-top: 30px;
 }
 .dropDownMenu{
 	justify-content: space-between;
