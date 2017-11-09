@@ -62,9 +62,9 @@ header{
 	width: 140px;
 }
 ul{
-	width: 49%;
+	width: 55%;
 	justify-content: space-between;
-	margin-left: 109px;
+	margin-left: 49px;
 }
 ul li{
 	font-family: "Oswald", sans-serif;
@@ -93,6 +93,7 @@ nav{
 	right: 7%;
 	align-items: flex-end;
 	width: 73px;
+	display: flex;
 }
 
 
