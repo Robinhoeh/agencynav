@@ -1,8 +1,8 @@
 import $ from 'jquery';
 
 $(document).ready( () => {
-	$( "a" ).click(function( event ) {
-	  event.preventDefault();
+	$( "a" ).click(function( e ) {
+	  e.preventDefault();
 	$('.hamburger').on('click', () =>{
 		$('.menu').toggleClass('dropDownMenu');
 	});
