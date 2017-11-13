@@ -103,7 +103,10 @@ nav{
 
 
 /* Portrait tablet and small desktops */
-@media (max-width: 940px) {
+@media (max-width: 1000px) {
+	ul{
+		margin-left: 0;
+	}
 }
 
 /* Landscape phone to portrait tablet */

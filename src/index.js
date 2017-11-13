@@ -1,10 +1,13 @@
 import $ from 'jquery';
 
-	$(document).ready( () => {
-		$( "p" ).click(function( e ) {
-		  e.preventDefault();
-		$('.hamburger').on('click', () =>{
-			$('.menu').toggleClass('dropDownMenu');
-		});
+$(document).ready( () => {
+	$('.hamburger').on('click', () => {
+		$('.menu').fadeIn('dropDownMenu');
 	});
+
+	// $('.hamburger').on('click', () => {
+	// 	$('.dropDownMenu').fadeIn();
+	// });
+
 });
+
