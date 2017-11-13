@@ -49,7 +49,7 @@ a{
 
 /*header*/
 header{
-	min-height: 98vh;
+	min-height: 100vh;
 	background-image: linear-gradient(rgba(0,0,0,0.4) 50%, rgba(0,0,0,0.4) 50%), url(./hero.jpg);	background-size: cover;
 	background-position: bottom center;
 	background-repeat: no-repeat;
@@ -146,6 +146,15 @@ h1{
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 873px) {
+	h1{
+		font-size: 50px;
+	}
+	.romanceCopy{
+		font-size: 27px;
+	}
+	.descriptionCopy{
+		font-size: 16px;
+	}
 	.menu{
 		display: none;
 	}
@@ -199,6 +208,13 @@ h1{
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
+	h1{
+		font-size: 38px;
+		margin: 20px;
+	}
+	.romanceCopy{
+		font-size: 20px;
+	}
 }
 
 
