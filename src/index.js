@@ -8,9 +8,11 @@ $(document).ready( () => {
 	});
 
 	$('.hamburger').on('click', () => {
-		$('.dropDownMenu').fadeOut();
+		$('.dropDownMenu').fadeOut('slow', () => {
+			$(this).removeClass('dropDownMenu');
+		});
 	});
-	
+
 });
 
 

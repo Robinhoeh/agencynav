@@ -116,7 +116,9 @@ nav{
 	.menu{
 		display: none;
 	}
-
+	.dropDownMenu{
+		display: none;
+	}
 	.hamburger{
 		margin: 0;
 		margin-right: 1%;
