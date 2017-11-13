@@ -2,12 +2,16 @@ import $ from 'jquery';
 
 $(document).ready( () => {
 	$('.hamburger').on('click', () => {
-		$('.menu').fadeIn('dropDownMenu');
+		$('.dropDownMenu').fadeIn('slow', () => {
+			$(this).addClass('dropDownMenu');
+		});
 	});
 
-	// $('.hamburger').on('click', () => {
-	// 	$('.dropDownMenu').fadeIn();
-	// });
-
+	$('.hamburger').on('click', () => {
+		$('.dropDownMenu').fadeOut();
+	});
+	
 });
+
+
 
