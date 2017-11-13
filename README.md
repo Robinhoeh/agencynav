@@ -1,8 +1,8 @@
 # Responsive nav menu
 
-## The idea here was to build a simple yet responsive header. On click, the menu
-## is displayed. I used google fonts, icoFont for the hamburger bar and jQuery.
+## The idea here was to build a simple yet responsive header. On click, the menu is displayed. I used google fonts, icoFont for the hamburger bar and jQuery.
 
+## Please check out the public directory for the original design 
 ## Available Scripts
 
 - `npm run start` - Starts the development server
