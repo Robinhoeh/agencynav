@@ -263,6 +263,10 @@ nav {
     visibility: hidden;
     display: none;
 }
+.visible {
+  display: none;
+  visibility: visible;
+}
 .hamburger {
     display: none;
 }
@@ -347,6 +351,13 @@ h1 {
         color: white;
         border-bottom: 2px solid white;
     }
+    .dropDownMenu .visible {
+      display: none;
+    }
+    .visible {
+      display: flex;
+      visibility: visible;
+    }
     .dropDownMenu {
         justify-content: start;
         flex-direction: column;
@@ -357,7 +368,6 @@ h1 {
         right: 3%;
         align-items: flex-end;
         width: 122px;
-        display: flex;
         height: 233px;
         background: #873137;
         animation: fadein 0.6s;
@@ -370,9 +380,7 @@ h1 {
 	    	opacity: 1;
 	    }
   	}
-  	.dropDownMenu {
-  		display: none;
-  	}
+	
   }
     /* Landscape phones and down */
     
