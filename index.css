@@ -391,4 +391,9 @@ h1 {
         .romanceCopy {
             font-size: 20px;
         }
+        header{
+        	height: 457px;
+        	background-position: 20%;
+        	transition: .3s;
+        }
     }
